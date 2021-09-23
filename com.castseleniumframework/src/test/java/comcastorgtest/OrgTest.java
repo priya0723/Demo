@@ -7,7 +7,9 @@ public class OrgTest {
 	@Test(groups="SmokeTest")
 	
 	public void createOrgTest() {
-		
+		String BROWSER = System.getProperty("chrome");
+		String ENV = System.getProperty("url");
+		System.out.println("BROWSER=====>"+BROWSER+"ENV=====>"+ENV);
 		System.out.println("execute createorgTest");
 	}
 	@Test(groups="regressionTeat")
