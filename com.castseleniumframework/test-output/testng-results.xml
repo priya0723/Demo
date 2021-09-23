@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-09-23T14:24:40 IST" name="Default suite" finished-at="2021-09-23T14:24:40 IST" duration-ms="69">
+    <groups>
+      <group name="regressionTest">
+        <method signature="ContactTest1.createContactWithOrgTest()[pri:0, instance:com.castseleniumframework.ContactTest1@73ee04c8]" name="createContactWithOrgTest" class="com.castseleniumframework.ContactTest1"/>
+        <method signature="ContactTest1.deleteContactTest()[pri:0, instance:com.castseleniumframework.ContactTest1@73ee04c8]" name="deleteContactTest" class="com.castseleniumframework.ContactTest1"/>
+      </group> <!-- regressionTest -->
+      <group name="SmokeTest">
+        <method signature="ContactTest1.createContactTest()[pri:0, instance:com.castseleniumframework.ContactTest1@73ee04c8]" name="createContactTest" class="com.castseleniumframework.ContactTest1"/>
+      </group> <!-- SmokeTest -->
+    </groups>
+    <test started-at="2021-09-23T14:24:40 IST" name="Default test" finished-at="2021-09-23T14:24:40 IST" duration-ms="69">
+      <class name="com.castseleniumframework.ContactTest1">
+        <test-method signature="createContactTest()[pri:0, instance:com.castseleniumframework.ContactTest1@73ee04c8]" started-at="2021-09-23T14:24:40 IST" name="createContactTest" finished-at="2021-09-23T14:24:40 IST" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createContactTest -->
+        <test-method signature="createContactWithOrgTest()[pri:0, instance:com.castseleniumframework.ContactTest1@73ee04c8]" started-at="2021-09-23T14:24:40 IST" name="createContactWithOrgTest" finished-at="2021-09-23T14:24:40 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createContactWithOrgTest -->
+        <test-method signature="deleteContactTest()[pri:0, instance:com.castseleniumframework.ContactTest1@73ee04c8]" started-at="2021-09-23T14:24:40 IST" name="deleteContactTest" finished-at="2021-09-23T14:24:40 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteContactTest -->
+      </class> <!-- com.castseleniumframework.ContactTest1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
